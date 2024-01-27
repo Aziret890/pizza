@@ -1,0 +1,31 @@
+.root {
+	width: 210px;
+	height: 45px;
+	border: 1px solid yellow;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.icon {
+	width: 40px;
+	height: 40px;
+}
+.divs {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+	position: relative;
+}
+.delete {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 180px;
+	opacity: 0.3;
+	&:hover {
+		opacity: 0.8;
+		cursor: pointer;
+		width: 17px;
+		height: 17px;
+	}
+}
